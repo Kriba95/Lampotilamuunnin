@@ -1,0 +1,61 @@
+
+
+.container {
+  align-content: center;
+  text-align: left;
+  margin: auto;
+  width: 50%;
+  border: 5px solid black;
+  padding: 10px;
+  background-color: rgba(136, 136, 136, 0.5);
+}
+.teksti {
+
+  padding-left: 10px;
+  padding-right: 10px;
+
+}
+
+.kav-teksti {
+  font-size: 2em;
+}
+
+.js-boksi:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.Btn {
+  background-color: black;
+  border: 1px solid #ccc;
+  display: inline-block;
+  width: 80px;
+  color: #fff;
+  padding: 12px;
+  font-style: italic;
+  cursor: pointer;
+
+}
+
+input { 
+  border: none;
+  border-radius: 0;
+  padding: 10px;
+  float: left;
+  font-size: 18px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 10px;
+}
+
+.grid-boksi {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  text-align: center;
+}
+
+
