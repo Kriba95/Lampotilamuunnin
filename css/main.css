@@ -56,6 +56,10 @@ input {
   background-color: rgba(255, 255, 255, 0.8);
   padding: 20px;
   text-align: center;
-}
+  text-overflow: ellipsis;
 
+  /* Required for text-overflow to do anything */
+  white-space: nowrap;
+  overflow: hidden;
+}
 

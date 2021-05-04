@@ -53,8 +53,8 @@
         </form> 
       </div> 
       <br>
-      <div class="grid-boksi"><h1>
-        <p style="display: inline-block;" id="output">Vastaus </p><p id="kumpi" style="display: inline-block;" ></p>
+      <div class="grid-boksi"><h1 class="ellipsis">
+        <span style="display: inline-block;" id="output" maxlength="1">Vastaus </span><p id="kumpi" style="display: inline-block;" ></p>
         </h1></div>
     </div>
   </div>    
